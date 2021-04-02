@@ -1,4 +1,10 @@
-package com.david.learn.funcprogramming;
+package com.david.learn.funcprogramming.demo.section3;
+
+import com.david.learn.funcprogramming.dto.Book;
+import com.david.learn.funcprogramming.service.BookFactory;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * for functional interface only
@@ -13,7 +19,7 @@ public class ConstructorReferenceDemo {
         //it will match the constructor with same parameter with method
         //FI will match the constructor so that call the abstract method. it will call the constructor
         BookFactory bf = Book::new;
-        Book book = bf.getBook("Java",100,false);
+        Book book = bf.getBook("Java",100,false, new ArrayList<>(Arrays.asList("")));
         System.out.println(book.toString());
 
 

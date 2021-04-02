@@ -1,4 +1,7 @@
-package com.david.learn.funcprogramming;
+package com.david.learn.funcprogramming.demo.section4;
+
+import com.david.learn.funcprogramming.dto.Book;
+import com.david.learn.funcprogramming.service.BookService;
 
 import java.util.List;
 import java.util.function.Consumer;
