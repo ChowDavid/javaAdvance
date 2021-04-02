@@ -1,10 +1,7 @@
-package com.david.learn.funcprogramming.demo.section3;
+package com.david.learn.funcprogramming.demo.jdk8.section3;
 
 import java.util.Comparator;
 import java.util.function.BinaryOperator;
-import java.util.function.DoubleBinaryOperator;
-import java.util.function.IntBinaryOperator;
-import java.util.function.LongBinaryOperator;
 
 /**
  * Two parameters and single return

@@ -1,4 +1,4 @@
-package com.david.learn.funcprogramming.demo.section3;
+package com.david.learn.funcprogramming.demo.jdk8.section3;
 
 import java.util.function.Supplier;
 

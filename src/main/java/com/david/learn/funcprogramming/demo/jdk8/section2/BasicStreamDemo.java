@@ -1,4 +1,4 @@
-package com.david.learn.stream;
+package com.david.learn.funcprogramming.demo.jdk8.section2;
 
 import java.util.Arrays;
 import java.util.List;
